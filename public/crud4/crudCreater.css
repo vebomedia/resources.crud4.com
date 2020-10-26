@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25.02.2020, 16:45:04
+    Author     : waycell
+*/
+ 
+
+
+body {
+    background-color: #f2f3f8 !important;
+}
+
+#wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#wrapper #content-wrapper {
+    overflow-x: hidden;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 10px;
+}
+
+.dropdown-divider {
+    border-top: 1px solid #373b5d;
+}
+
+.dropdown-item {
+    color: #0a0a0a;
+}
+
+/** -----------------------------------------------------------------------  **/
+
+.btn{
+    font-size: 0.8rem;  
+}
+
+.card h5 i{
+    color: #b2b1c5;
+}
+.card-body {
+    padding: 0.25rem;
+}
+
+table thead:first-child{
+    background: #f4f3f8;
+    border: 0px !important;
+}
+
+.table thead th {
+    border: 0px solid #dee2e6;
+}
+
+div.table-responsive>div.dataTables_wrapper>div.row>div[class^="col-"]:last-child {
+    margin-right: 3rem!important;
+}
+
+table.dataTable tbody>tr.selected, table.dataTable tbody>tr>.selected {
+    background-color: #407bbb;
+    color: #fff;
+}
+
+.breadcrumb {
+    background-color: #fbfbfb;  
+    margin-bottom: 0.5rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}        

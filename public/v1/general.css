@@ -1,0 +1,320 @@
+.dropdown-menu{
+    z-index: 999999 !important;
+}
+.swal-container {
+    z-index: 2000;
+};
+.select2-dropdown.increasedzindexclass {
+    z-index: 999999;
+}
+.CodeMirror {
+    border: 1px solid #eee;
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+/*--Label Red Dot For Required*/
+label.required:not(span):after{
+    content: '* ';
+    color: #F00;
+    font-weight: bold;
+}
+/* Datatable Extra*/
+td.details-control {
+    background: url('https://resources.crud4.com/v1/images/details_open.png') no-repeat center center;
+    cursor: pointer;
+    padding: 0px;
+}
+tr.shown td.details-control {
+    background: url('https://resources.crud4.com/v1/images/details_close.png') no-repeat center center;
+}
+div.slider {
+    display: none;
+    padding: 0px;
+}
+table.dataTable tbody td.no-padding {
+    padding: 0;
+}
+.dz-details{
+    cursor: move !important;
+}
+.dropzone {
+    min-height: 50px !important;
+    padding: 5px 5px !important;
+    width: 100%;
+}
+.dropzone .dz-preview {
+    margin: 5px !important;
+    min-height: 50px !important;
+}
+.dropzone .dz-message {
+    margin: 0.1em 0 !important;
+}
+.dropzone .dz-preview .dz-image {
+    height: 100% !important;
+    border-radius: 0px !important;
+}
+.dz-details{
+    cursor: move;
+}
+
+/*.chartdiv{
+    width: 100%;
+    height: 368px;  
+}*/
+
+.pieChartDiv{
+    width: 100%;
+    height: 368px;  
+}
+.xyChartDiv{
+    width: 100%;
+    height: 400px;  
+}
+/***
+        TYPEAHEAD for MDB
+        by djibe
+***/
+
+.typeahead {
+    z-index: 1051;
+}
+/*If using icon span before input, like <i class="fa fa-asterisk prefix"></i>*/
+span.twitter-typeahead {
+    width: calc(100% - 6rem);
+    margin-left: 0rem;
+}
+/* Aspect of the dropdown of results*/
+
+.tt-menu {
+    z-index: 10000 !important;
+}
+.twitter-typeahead { 
+
+    width: 100% !important;
+
+} 
+.typeahead.dropdown-menu,
+span.twitter-typeahead .tt-menu {
+    min-width: 100%;
+    background: white;
+    /*as large as input*/
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    border-radius: 0;
+    font-size: 1rem;
+}
+
+/*Aspect of results, done*/
+
+span.twitter-typeahead .tt-suggestion {
+    color: #4285F4;
+    cursor: pointer;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+/*Hover a result, done*/
+
+span.twitter-typeahead .active.tt-suggestion,
+span.twitter-typeahead .tt-suggestion.tt-cursor,
+span.twitter-typeahead .active.tt-suggestion:focus,
+span.twitter-typeahead .tt-suggestion.tt-cursor:focus,
+span.twitter-typeahead .active.tt-suggestion:hover,
+span.twitter-typeahead .tt-suggestion.tt-cursor:hover {
+    background-color: #EEEEEE;
+    color: #4285F4;
+}
+.datepicker {z-index: 1151 !important;
+             display: block;
+}
+.datetimepicker {z-index: 1151 !important;
+                 display: block;
+}
+.bootstrap-datetimepicker-widget {
+    z-index:10800 !important;
+    display: block;
+}
+.wellSmall{
+    height: 150px; 
+    overflow: auto;   
+}
+.bg-themesidebar {
+    background-color: #2c2e3e!important;
+}
+.bg-themesidebarlink {
+    background-color: #9792d0!important;
+}
+/**
+* bootsrap btn padding
+* orginal padding: .25rem .5rem;
+* Fixed for datatable.net
+*/
+.btn-group-sm>.btn, .btn-sm {
+    padding: .3rem .5rem;
+}
+/* Bootstrap Toggle v2.2.2 corrections for Bootsrtap 4*/
+
+.toggle-handle {
+    background-color: white;
+    border: thin rgba(0, 0, 0, .25) solid;
+}
+.btn-group-xs > .btn, .btn-xs {
+    padding: .25rem .4rem;
+    font-size: .875rem;
+    line-height: .5;
+    border-radius: .2rem;
+}
+.toggle.btn-xs {
+    min-width: 50px !important;
+    min-height: 20.875px !important;
+}
+.showdownload .showonhover{
+    display: none;
+}
+.showdownload:hover .showonhover{
+    display: block;
+}
+/* STAR RATING    */
+.star_checked {
+    color: dodgerblue;
+}
+
+.rating {
+    float:left;
+}
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+  follow these rules. Every browser that supports :checked also supports :not(), so
+  it doesn’t make the test unnecessarily selective */
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    /* padding:0 .1em; */
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    /* line-height:1.2; */
+    color:#ddd;
+}
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+.rating > input:checked ~ label {
+    color: dodgerblue;
+
+}
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: dodgerblue;
+
+}
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: dodgerblue;
+
+}
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+.nav-pills .nav-link {
+    border-radius: .125rem;
+}
+
+.btn {
+    border-radius: .125rem;
+}
+.groupTitle{
+
+    font-size: 16px; 
+    font-weight: 600; 
+    border-bottom: 1px solid #ddd; 
+    padding: 0 4px 10px 0;
+}
+/**
+* Modal Left-Right Positions
+*/
+.modal.leftmodal .modal-dialog {
+    position:fixed;
+    left: 0;
+    margin: auto;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+.modal.leftmodal .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+.modal.rightmodal .modal-dialog {
+    position:fixed;
+    right: 0;
+    margin: auto;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+.modal.rightmodal .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.topmodal .modal-dialog {
+    position:fixed;
+    top: 0;
+    margin: auto;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+.modal.topmodal .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+
+
+
+
+/*Datatable loading view correction */
+div.dataTables_wrapper div.dataTables_processing {
+    z-index: 4444;
+}
+
+.dataTables_scrollHeadInner {
+    width: 100% !important;
+}
+.dataTables_scrollHeadInner table {
+    width: 100% !important;
+}
