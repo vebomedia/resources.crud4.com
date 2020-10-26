@@ -1,0 +1,2 @@
+# FollowSymLinks must be enabled for this to work.
+Header set Access-Control-Allow-Origin "*" 

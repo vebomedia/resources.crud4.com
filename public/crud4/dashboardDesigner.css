@@ -1,0 +1,92 @@
+/**
+* ROW
+*/
+
+.DESIGNER_ROW{
+    
+    position: relative !important;
+}
+.DESIGNER_ROW:hover{
+    border: 1px solid #183552!important;
+}
+
+.CONTAINER_COL:hover{
+    border: 1px solid red!important;
+}
+
+.ACTIVE_ROW{
+    border: 1px solid green!important;
+    position: relative !important;
+}
+.ACTIVE_ROW:hover{
+    border: 1px solid green!important;
+}
+
+.DESIGNER_PLACEHOLDER {
+    border: 1px solid greenyellow !important;
+    margin: 0 1em 1em 0;
+    height: 50px;
+    flex-grow: 1;
+    flex-basis: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.CONTAINER_ROW_CONFIG {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: -35px;
+    border: 1px solid green!important;
+}
+
+.ACTIVE_ROW .CONTAINER_ROW_CONFIG {
+    display: block;
+}
+
+/**
+* ROW COLUMN
+*/
+.CONTAINER_COL_CONFIG {
+    display: none;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    border: 1px solid red!important;
+}
+.ACTIVE_COLUMN .CONTAINER_COL_CONFIG {
+    display: block;
+}
+.ACTIVE_COLUMN{
+
+    border: 1px solid red!important;
+}
+.ACTIVE_COLUMN:hover{
+    border: 1px solid red!important;
+}
+
+/**
+* ELEMENT 
+*/
+.ELEMENT{
+    position: relative;
+}
+
+.ACTIVE_ELEMENT {
+    border: 1px solid blue!important;
+}
+
+.ELEMENT_CONFIG {
+    display: none;
+    position: absolute;
+    top: -1px;
+    left: -35px;
+    border: 1px solid blue!important;
+
+}
+
+.ACTIVE_ELEMENT .ELEMENT_CONFIG{
+
+    display: block;
+}
